@@ -1,11 +1,13 @@
-package com.leezhong.timer;
+package com.leezhong.demo1;
 
 import java.util.Date;
 
 import org.quartz.*;
 import org.quartz.impl.StdSchedulerFactory;
 
-
+/**
+ * quartz入门案例
+ */
 public class HelloQuartzScheduling {
 
     public static void main(String[] args)throws SchedulerException {
